@@ -80,7 +80,9 @@ a {
 
 main {
     background-color: #FFA185;
-    border: 1px solid #129799;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -89,6 +91,7 @@ h2 {
     font-weight: 400;
     font-size: 2.8vh;
     margin-left: 1.4vh;
+    align-self: flex-start;
 }
 
 p {
@@ -97,6 +100,7 @@ p {
     margin-bottom: 1.4vh;
     color: black;
     font-size: 2.8vh;
+    align-self: flex-start;
 }
 
 .primeira {
@@ -104,17 +108,13 @@ p {
     /* border: 1px solid red; */
     justify-content: space-evenly;
     align-items: center;
-    height: 34vh;
+    height: 80vh;
+    width: 180vh;
     margin-bottom: 5.3vh;
+    flex-wrap: wrap;
 }
 
-.segunda {
-    display: flex;
-    /* border: 1px solid red; */
-    justify-content: space-evenly;
-    align-items: center;
-    height: 34vh;
-}
+
 .imagem {
     width: 62vh;
     height: 32vh;
@@ -183,154 +183,193 @@ li {
     color: #F7F7F7;
 }
 
-@media (max-width: 1175px) {
+@media (max-width: 2560px) {
+    .primeira {
+        height: 80vh;
+        width: 140vh;
+    }
+    
+    .imagem {
+        width: 62vh;
+        height: 32vh;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width:1440px) {
+
     .titulo {
-        font-size: 4vh;
+        font-size: 2vh;
     }
+
     .batimento {
-        width: 50vh;
+        width: 32vh;
+        height: 19vh;
+    }
+
+    .primeira {
+        height: 50vh;
+        width: 85vh;
+        margin-bottom: 1vh;
+    }
+    .imagem {
+        width: 35vh;
         height: 20vh;
+        /* border: 1px solid red; */
     }
-    .imagem {
-        width: 52vh;
-        height: 28vh;
+    .linkSection {
+        font-size: 1.4vh;
     }
-    p {
-        font-size: 1.9vh;
+    .tiposLi {
+        font-size: 1.4vh;
     }
-}
 
-@media (max-width: 1030px) {
-    .footerLinks{
-        font-size: 1.9vh;
+    h2 {
+        font-size: 1.8vh;
     }
+    p{
+        font-size: 1.4vh;
+    }
+
+    .next {
+        font-size: 2.2vh;
+    }
+    .footerLinks {
+        font-size: 1.8vh;
+    }
+
     .icon {
-        width: 3.2vh;
-        height: 3vh;
+        width: 2.8vh;
+        height: 2.6vh;
+        /* border: 1px solid red; */
     }
-    .imagem {
-        width: 42vh;
-        height: 27vh;
+    .linksTipos {
+        width: 45vh;
     }
+
 }
 
-@media (max-width: 842px) {
-    p {
-        font-size: 1.6vh;
+@media (max-width: 1024px) {
+    .primeira {
+        height: 50vh;
+        width: 60vh;
+        margin-bottom: 1vh;
+    }
+    .imagem {
+        width: 26vh;
+        height: 23vh;
+        /* border: 1px solid red; */
     }
 
     .titulo {
         font-size: 3vh;
     }
-    .linkSection{
-        font-size: 2.1vh;
-    }
-    .tiposLi{
-        font-size: 2.1vh;
-    }
-    .imagem {
-        width: 39vh;
-        height: 24vh;
-    }
-}
-
-@media (max-width: 425px) {
-
-    .linkSection{
-        font-size: 1.3vh;
-    }
-    .tiposLi{
-        font-size: 1.3vh;
-    }
-    .titulo {
-        font-size: 1.5vh;
-    }
-    .batimento{
-        width: 30vh;
-        height: 10vh;
-    }
+    
     h2 {
-        font-size: 1.7vh;
+        font-size: 1.8vh;
     }
-    p {
-        font-size: 1.4vh;
-    }
-    .imagem {
-        width: 23vh;
-        height: 23vh;
-    }
-
-    .primeira {
-        height: 23vh;
-    }
-
-    .segunda  {
-        height: 23vh;
+    p{
+        font-size: 1.5vh;
     }
 
     footer {
-        height: 6vh;
-    }
-
-    .icon {
-        width: 2.1vh;
-        height: 1.9vh;
-    }
-    .footerLinks{
-        font-size: 1.1vh;
-    }
-    .next {
-        font-size: 1.5vh;
+        height: 10vh;
     }
 }
 
-@media (max-width: 375px) {
-    .titulo {
-        font-size: 1.4vh;
+@media (max-width: 768px) {
+    .primeira {
+        height: 55vh;
+        width: 80vh;
+        margin-bottom: 1vh;
     }
-    .batimento{
-        width: 20vh;
-        height: 8vh;
+    .imagem {
+        width: 37vh;
+        height: 26vh;
+        /* border: 1px solid red; */
+    }
+    .tiposLi {
+        font-size: 1.8vh;
+    }
+    .linkSection {
+        font-size: 1.8vh;
+    }
+    .titulo {
+        font-size: 2.8vh;
     }
     h2 {
-        font-size: 1.4vh;
+        font-size: 2vh;
     }
-
-    p {
-        font-size: 1.2vh;
+    p{
+        font-size: 1.7vh;
     }
-    .imagem {
-        width: 18vh;
-        height: 20vh;
-    }
-    .primeira {
-        height: 20vh;
-    }
-    .next {
-        font-size: 1.3vh;
-    }
-    .segunda  {
-        height: 20vh;
-    }
-    .icon {
-        width: 1.8vh;
-        height: 1.7vh;
+    .batimento {
+        width: 35vh;
+        height: 25vh;
     }
     .linksTipos {
-        width: 15vh;
+        width: 40vh;
+    }
+    .footerLinks{
+        font-size: 2.3vh;
+    }
+    .icon {
+        width: 3vh;
+        height: 2.8vh;
+        /* border: 1px solid red; */
+    }
+
+    .next {
+        font-size: 2vh;
     }
 }
 
-@media (max-width: 320px) {
-    .imagem {
-        width: 15vh;
-        height: 18vh;
-    }
-    .linkSection{
-        font-size: 1vh;
-    }
-    .tiposLi{
-        font-size: 1vh;
-    }
+    @media (max-width: 425px) {
+        .primeira {
+            height: 33vh;
+            width: 50vh;
+            margin-bottom: 0.5vh;
+        }
+        .imagem {
+            width: 17vh;
+            height: 15vh;
+            /* border: 1px solid red; */
+        }
+        .titulo {
+            font-size: 1.5vh;
+        }
+        .batimento {
+            width: 25vh;
+            height: 15vh;
+        }
+        .tiposLi {
+            font-size: 1.2vh;
+        }
+        .linkSection {
+            font-size: 1.2vh;
+        }
+        h2 {
+            font-size: 1.5vh;
+        }
+        p{
+            font-size: 1.2vh;
+        }
+        .next {
+            font-size: 1.5vh;
+        }
+        .icon {
+            width: 2vh;
+            height: 1.8vh;
+            /* border: 1px solid red; */
+        }
+        footer {
+            height: 8vh;
+        }
+        .footerLinks{
+            font-size: 1.5vh;
+        }
+     }
+        @media (max-width: 425px) {
 
-}
+        }
+   
