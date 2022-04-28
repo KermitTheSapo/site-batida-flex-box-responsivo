@@ -278,98 +278,95 @@ li {
 }
 
 @media (max-width: 768px) {
+
     .primeira {
-        height: 55vh;
-        width: 80vh;
-        margin-bottom: 1vh;
+        height: 35vh;
+        width: 45vh;
+        margin-bottom: 0.5vh;
     }
     .imagem {
-        width: 37vh;
-        height: 26vh;
+        width: 20vh;
+        height: 16vh;
         /* border: 1px solid red; */
     }
     .tiposLi {
-        font-size: 1.8vh;
+        font-size: 1.5vh;
     }
     .linkSection {
-        font-size: 1.8vh;
+        font-size: 1.5vh;
     }
     .titulo {
-        font-size: 2.8vh;
+        font-size: 1.8vh;
     }
     h2 {
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
     p{
-        font-size: 1.7vh;
+        font-size: 1.2vh;
     }
     .batimento {
-        width: 35vh;
-        height: 25vh;
+        width: 25vh;
+        height: 15vh;
     }
     .linksTipos {
         width: 40vh;
     }
     .footerLinks{
-        font-size: 2.3vh;
+        font-size: 1.5vh;
     }
     .icon {
-        width: 3vh;
-        height: 2.8vh;
+        width: 2vh;
+        height: 1.8vh;
         /* border: 1px solid red; */
     }
 
     .next {
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
 }
 
     @media (max-width: 425px) {
         .primeira {
-            height: 33vh;
-            width: 50vh;
-            margin-bottom: 0.5vh;
+            height:18vh;
+            width: 25vh;
+            margin-bottom: 0.1vh;
         }
         .imagem {
-            width: 17vh;
-            height: 15vh;
+            width: 10vh;
+            height: 8vh;
             /* border: 1px solid red; */
         }
         .titulo {
-            font-size: 1.5vh;
+            font-size: 1.2vh;
         }
         .batimento {
-            width: 25vh;
-            height: 15vh;
+            width: 10vh;
+            height: 10vh;
         }
         .tiposLi {
-            font-size: 1.2vh;
+            font-size: 1vh;
         }
         .linkSection {
-            font-size: 1.2vh;
+            font-size: 1vh;
         }
         h2 {
-            font-size: 1.5vh;
-        }
-        p{
             font-size: 1.2vh;
         }
+        p{
+            font-size: 1vh;
+        }
         .next {
-            font-size: 1.5vh;
+            font-size: 1vh;
         }
         .icon {
-            width: 2vh;
-            height: 1.8vh;
+            width: 1vh;
+            height: 1.3vh;
             /* border: 1px solid red; */
         }
         footer {
-            height: 8vh;
+            height: 4vh;
         }
         .footerLinks{
-            font-size: 1.5vh;
+            font-size: 1vh;
         }
      }
-        @media (max-width: 425px) {
-
-        }
-   
